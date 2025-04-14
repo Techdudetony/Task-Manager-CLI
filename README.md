@@ -7,9 +7,9 @@ Designed for a clean, interactive experience with persistent task storage and sm
 
 ## Features Completed
 
-🧩 Interactive CLI commands using `argparse`
-📁 Modular design using `src/` package
-💾 Persistent task storage via JSON
+🧩 Interactive CLI commands using `argparse`  
+📁 Modular design using `src/` package  
+💾 Persistent task storage via JSON  
 🧱 Task model with:  
 - Title
 - Priority (`Critical`, `High`, `Medium`, `Low`)
@@ -17,37 +17,41 @@ Designed for a clean, interactive experience with persistent task storage and sm
 - Completion Status
 - Optional Tag (`--tag`)
 
-✍️ Interactive `add` and `edit` commands (no flags needed)
-🎨 Terminal color-coded output using `colorama`
-📅 Overdue task highlighting in red
-🔁 Priority-based and due date sorting
-🧪 Unit tests using `pytest`
-🔐 `.gitignore`, `requirements.txt`, and virtual environment best practices
+✍️ Interactive `add` and `edit` commands (no flags needed)  
+🎨 Terminal color-coded output using `colorama`  
+📅 Overdue task highlighting in red  
+🔁 Priority-based and due date sorting  
+🧪 Unit tests using `pytest`  
+🔐 `.gitignore`, `requirements.txt`, and virtual environment best practices  
 💻 WSL + VS Code optimized workflow
 
 ---
 
 ## Installation
-
+1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/Techdudetony/Task-Manager-CLI.git
 cd Task-Manager-CLI
-
-# Set up virtual environment
+```
+2. Set up virtual environment
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
-# Install dependencies
+```
+3. Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
 --- 
 
 # Run Tests
+Test with `PyTest`
 ```bash
 pytest
-# or with coverage:
+```
+ Test with coverage:
+```bash
 PYTHONPATH=src pytest --cov=src
 ```
 
