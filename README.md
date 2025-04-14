@@ -99,3 +99,24 @@ In this example:
 - 🟨 `Priority: High` would be highlighted **Yellow** for High Priority.
 - 🟥 `Priority: Critical` would be highlighted **Red** for Critical Priority.
 - 📅 `2024-04-10` would be highlighted **Red** since this date has passed (overdue).
+
+---
+
+# 🔮 Upcoming Features (Planned)
+- Filter tasks by tag (e.g., `list --tag work`)
+- Switch to SQLite for task storage
+- Import/Export tasks as JSON or CSV
+- Bulk edit or batch commands
+- Add CLI dashboard summaries
+- Custom alerts and reminders:
+> - Run silently in the background
+> - Configurable alert times before due
+> - Custom sound notifications
+> - Optional popups or animated terminal GIFs
+
+---
+
+# Built By
+**Antonio Lee**  
+GitHub: @Techdudetony
+Built with `Python` · `Pytest` · `Colorama` · `JSON` · `VS Code + WSL`
