@@ -118,5 +118,5 @@ In this example:
 
 # Built By
 **Antonio Lee**  
-GitHub: @Techdudetony
+GitHub: @Techdudetony  
 Built with `Python` · `Pytest` · `Colorama` · `JSON` · `VS Code + WSL`
